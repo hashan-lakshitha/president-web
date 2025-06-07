@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Annual Leadership Summit",
+    "date": "2024-07-15",
+    "location": "New York, USA",
+    "description": "Join us for a day of inspiring talks and networking with top leaders.",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "name": "Community Service Day",
+    "date": "2024-08-10",
+    "location": "Los Angeles, USA",
+    "description": "A day dedicated to giving back to the community.",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "name": "Election Campaign Launch",
+    "date": "2024-09-01",
+    "location": "Chicago, USA",
+    "description": "Kick-off event for the upcoming election campaign.",
+    "image": ""
+  }
+]

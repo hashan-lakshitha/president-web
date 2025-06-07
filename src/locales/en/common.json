@@ -1,0 +1,35 @@
+{
+  "welcome": "Welcome to our application!",
+  "goodbye": "Thank you for visiting!",
+  "language": {
+    "select": "Select Language",
+    "english": "English",
+    "sinhala": "Sinhala",
+    "tamil": "Tamil"
+  },
+  "home": {
+    "title": "Home Page",
+    "description": "This is the home page of our application."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about our application and team."
+  },
+  "theme": {
+    "darkMode": "Switch to dark mode",
+    "lightMode": "Switch to light mode"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "read_more": "Read More"
+  },
+  "messages": {
+    "success": "Success!",
+    "error": "An error occurred. Please try again."
+  },
+  "meta": {
+    "title": "President's Media Division - Sri Lanka",
+    "description": "Official website of the President's Media Division of Sri Lanka."
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Facebook",
+    "url": "https://facebook.com/",
+    "icon": "bi-facebook",
+    "color": "primary"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://twitter.com/",
+    "icon": "bi-twitter-x",
+    "color": "info"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://instagram.com/",
+    "icon": "bi-instagram",
+    "color": "danger"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://youtube.com/",
+    "icon": "bi-youtube",
+    "color": "danger"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://linkedin.com/",
+    "icon": "bi-linkedin",
+    "color": "primary"
+  }
+]

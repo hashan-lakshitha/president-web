@@ -1,0 +1,119 @@
+{
+  "welcome": "Welcome to our application!",
+  "goodbye": "Thank you for visiting!",
+  
+  "language": {
+    "select": "Select Language",
+    "english": "English",
+    "sinhala": "Sinhala",
+    "tamil": "Tamil"
+  },
+   "header": {
+    "title": "President's Media Division",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact Us",
+    "news": "News",
+    "events": "Events",
+    "joinUs": "Join Us"
+  },
+  "home": {
+    "title": "Home Page",
+    "description": "This is the home page of our application."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about our office and the President of Sri Lanka.",
+    "presidency": {
+      "title": "The Presidency",
+      "description": "The Head of State of the Republic of Sri Lanka is the President. The President is also the Head of the Executive, the Head of the Government, and the Commander in Chief of the Armed Forces.",
+      "term": "The President is elected by the people and holds office for a period of five years. The President has the right to attend, address and send messages to Parliament at any time. The President is also entitled to all the privileges, immunities and powers of a Member of Parliament other than the right to vote, and shall not be liable for any breach of the privileges of Parliament, or of its Members.",
+      "cabinet": "The President is the Head of the Cabinet of Ministers, presides at meeting of the Cabinet and appoints the Prime Minister from among the members elected to Parliament."
+    },
+    "powers": {
+      "title": "Powers of the President",
+      "description": "The powers of the President include that of summoning, proroguing and dissolving Parliament and calling for a Referendum, in keeping with the relevant provisions of law.",
+      "constitution": "The Constitution also confers upon an elected President the power to:",
+      "list": {
+        "policy": "Make the Statement of Government Policy in Parliament at the commencement of each parliamentary session",
+        "preside": "Preside at ceremonial sittings of Parliament",
+        "diplomatic": "Receive and recognize, and to appoint and accredit Ambassadors, High Commissioners, Plenipotentiaries and other diplomatic agents",
+        "seal": "Keep the Public Seal of the Republic and to make and execute under the Public Seal the Acts of Appointment of the Prime Minister and other Ministers",
+        "war": "Declare War and Peace",
+        "international": "Perform all such acts and things, not being inconsistent with the provisions of the Constitution or written law, as by international law, custom or usage",
+        "pardon": "Grant pardon, grant any respite, substitute a less severe form of punishment for any punishment imposed"
+      }
+    },
+    "immunities": {
+      "title": "Immunities and Succession",
+      "description": "Under the immunities granted to the President, no legal proceedings may be initiated or continued with regard to official or private matters against the President while in office. If the President is unable to perform his duties due to illness or absence from the country, the Prime Minister will be appointed to exercise, perform and discharge the powers, duties and functions of the President."
+    },
+    "elections": {
+      "title": "Presidential Elections",
+      "description": "The Commissioner General of Elections conducts the Presidential Elections where the entire country is considered to be a single constituency. The winner is required to receive more than 50% of votes and takes his oaths as President before the Chief Justice."
+    }
+  },
+  "theme": {
+    "darkMode": "Switch to dark mode",
+    "lightMode": "Switch to light mode"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "read_more": "Read More"
+  },
+  "messages": {
+    "success": "Success!",
+    "error": "An error occurred. Please try again."
+  },
+  "footer": {
+    "links": {
+      "title": "Links",
+      "presidentialSecretariat": "Presidential Secretariat",
+      "cabinetMinisters": "Cabinet of Ministers",
+      "governmentOfSriLanka": "Government of Sri Lanka [GOV.LK]",
+      "pmd": "President's Media Division [PMDGOV]",
+      "newsPortal": "Government News Portal [NEWS.LK]",
+      "presidentsFund": "President's Fund"
+    },
+    "contact": {
+      "title": "Contact",
+      "presidentialSecretariat": "Presidential Secretariat",
+      "address1": "Galle Face,",
+      "address2": "Colombo 1, Sri Lanka",
+      "phone1": "(+94) 11 2354354",
+      "phone2": "(+94) 11 2340340"
+    },
+    "official": "This is the official website of the President of the Democratic Socialist Republic of Sri Lanka",
+    "copyright": "© 2025 President's Media Division. All rights reserved."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "phone": "Your Phone Number",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "meta": {
+    "title": "President's Media Division - Sri Lanka",
+    "description": "Official website of the President's Media Division of Sri Lanka."
+  },
+  "accessibility": {
+    "scrollToTop": "Scroll to top"
+  },
+  "news": {
+    "title": "Latest News",
+    "description": "Stay updated with the latest news from the President's Media Division.",
+    "readMore": "Read more"
+  },
+  "events": {
+    "title": "Upcoming Events",
+    "description": "Check out the upcoming events organized by the President's Media Division.",
+    "ourEvents": "Our Events",
+    "upcoming": "Upcoming",
+    "events": "Events"
+  }
+}
