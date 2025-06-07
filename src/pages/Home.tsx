@@ -1,6 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import SocialMedia from '../pages/SocialMedia'; 
+import SocialMedia from '../pages/SocialMedia';
+import Events from '../pages/Events';
+import News from '../pages/News';
+
 const Home: React.FC = () => {
   const { t } = useTranslation();
 
@@ -16,7 +19,9 @@ const Home: React.FC = () => {
 
       {/*SocialMedia pages */}
       <div className="div">
+        <Events />
         <SocialMedia />
+<News/>
       </div>
     </div>
   );

@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import LanguageSwitcher from './LanguageSwitcher';
-import { Menu, X, Moon, Sun } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import ThemeToggle from './ThemeToggle';
 
 const Header: React.FC = () => {
   const { t } = useTranslation();
@@ -45,7 +46,7 @@ const Header: React.FC = () => {
 
         {/* Navigation */}
         <div className={`collapse navbar-collapse${mobileMenuOpen ? ' show' : ''}`}>
-          <ul className="navbar-nav me-auto mb-2 mb-md-0">
+            <ul className="navbar-nav ms-auto mb-2 mb-md-0">
             <li className="nav-item">
               <Link to="/" className="nav-link">{t('header.home')}</Link>
             </li>
@@ -53,33 +54,16 @@ const Header: React.FC = () => {
               <Link to="/about" className="nav-link">{t('header.about')}</Link>
             </li>
             <li className="nav-item">
-              <Link to="/news" className="nav-link">{t('header.news')}</Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/events" className="nav-link">{t('header.events')}</Link>
-            </li>
-            <li className="nav-item">
               <Link to="/contact" className="nav-link">{t('header.contact')}</Link>
             </li>
-          </ul>
+            </ul>
           {/*  Toggle theme and language switcher */}
           <div className="d-flex align-items-center gap-2">
-            {/* Theme toggle using Bootstrap */}
-            <div className="btn-group" role="group" aria-label="Theme switcher">
-              <button
-                onClick={toggleTheme}
-                className={`btn btn-sm ${theme === 'light' ? 'btn-outline-secondary' : 'btn-outline-warning'}`}
-                aria-label="Toggle theme"
-                type="button"
-              >
-                {theme === 'light' ? <Moon size={18} /> : <Sun size={18} />}
-                <span className="ms-2">{theme === 'light' ? 'Dark' : 'Light'}</span>
-              </button>
-            </div>
+            <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
             <LanguageSwitcher />
-            <button className="btn btn-primary ms-2" type="button">
+            {/* <button className="btn btn-primary ms-2" type="button">
               {t('header.joinUs')}
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

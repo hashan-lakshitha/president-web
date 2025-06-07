@@ -11,9 +11,9 @@ const LanguageSwitcher: React.FC = () => {
   };
 
   return (
-    <div className="language-switcher">
-      <p className={theme === 'dark' ? 'text-light mb-2' : 'text-dark mb-2'}>
-        {t('language.select')}:
+    <div className="language-switcher d-flex">
+      <p className={theme === 'dark' ? 'text-light' : 'text-dark'}>
+        {/* {t('language.select')}: */}
       </p>
       <div className="btn-group" role="group" aria-label="Language switcher">
         <button
