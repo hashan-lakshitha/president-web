@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import newsImage from '../assets/images/resource/news-i.png';
-import newsData from '../locales/nw/news.json';
+import newsData from '../locales/pages-json/news.json';
 
 type Campaign = {
   id: number;

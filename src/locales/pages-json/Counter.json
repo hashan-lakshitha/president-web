@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "coun-icon.png",
+    "value": 6575,
+    "title": "Total Volunteer"
+  },
+  {
+    "icon": "coun-icon-1.png",
+    "value": 8988,
+    "title": "Campaigns"
+  },
+  {
+    "icon": "coun-icon-2.png",
+    "value": 5347,
+    "title": "Vote Papers"
+  },
+  {
+    "icon": "coun-icon-3.png",
+    "value": 7546,
+    "title": "Coverage Area"
+  }
+]

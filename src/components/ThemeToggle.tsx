@@ -10,7 +10,7 @@ const ThemeToggle: React.FC<ThemeToggleProps> = ({ theme, toggleTheme }) => (
   <div className="btn-group" role="group" aria-label="Theme switcher">
     <button
       onClick={toggleTheme}
-      className={`btn btn-sm ${theme === 'light' ? 'btn-outline-secondary' : 'btn-outline-warning'}`}
+      className={`btn btn-sm ${theme === 'light' ? 'btn' : 'btn'}`}
       aria-label="Toggle theme"
       type="button"
     >
