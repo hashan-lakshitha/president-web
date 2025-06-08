@@ -1,13 +1,13 @@
 import React from 'react';
-import socialLinks from '../locales/nw/socialMediaLink.json';
+import socialLinks from '../locales/pages-json/socialMediaLink.json';
 import { useTheme } from '../context/ThemeContext';
 
 const SocialMedia: React.FC = () => {
   const { theme } = useTheme();
 
   return (
-    <main className={theme === 'dark' ? 'bg-dark text-light py-5 min-vh-80' : 'bg-light text-dark py-5 min-vh-80'}>
-      <div className="container">
+    <main>
+      <div className="container py-5">
         <div className="text-center mb-5">
           <h2 className="fw-bold mb-3">
             <i className="bi bi-share-fill me-2 text-primary"></i>

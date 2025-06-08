@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { useTheme } from '../context/ThemeContext';
-import eventsData from '../locales/nw/events.json';
-import Eventimage from '../assets/images/resource/news-i.png';
+import { useTheme } from '../../context/ThemeContext.tsx';
+import eventsData from '../../locales/pages-json/events.json';
+import Eventimage from '../../assets/images/resource/news-i.png';
 
 type Event = {
   id: number;
@@ -19,8 +19,8 @@ const Events: React.FC = () => {
   const events: Event[] = eventsData;
 
   return (
-    <main className={theme === 'dark' ? 'bg-dark text-light py-5' : 'bg-light text-dark py-5'}>
-      <div className="container">
+   <main>
+      <div className="container py-5">
         <div className="text-center mb-5">
           <div className={`text-uppercase fw-semibold mb-2 ${theme === 'dark' ? 'text-warning' : 'text-danger'}`} style={{ letterSpacing: 2 }}>
             <i className="bi bi-calendar-event me-2"></i>
