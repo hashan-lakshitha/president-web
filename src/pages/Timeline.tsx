@@ -34,11 +34,6 @@ const Timeline: React.FC = () => {
   // Format date
   const formatDate = (dateString: string) => {
     // Parse the date format "17 Jun, 2024"
-    const months = {
-      'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
-      'Jul': 6, 'Agu': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Des': 11
-    };
-    
     const parts = dateString.split(' ');
     const day = parts[0];
     const month = parts[1].replace(',', '');
