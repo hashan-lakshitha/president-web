@@ -59,15 +59,15 @@ const Footer: React.FC = () => {
           <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <h4 className={`fw-bold mb-3 ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>Solution</h4>
             <div className="d-flex align-items-center mb-3">
-              <img src="assets/images/resource/news-i.png" alt="Solution 1" 
-                   className="rounded me-3" style={{ width: 60, height: 60, objectFit: 'cover' }} />
+              <img src="../assets/images/resource/comnt2.png"  
+                   className="rounded me-3" style={{ width: 80, height: 80, objectFit: 'cover' }} />
               <span className={`${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </span>
             </div>
             <div className="d-flex align-items-center">
-              <img src="assets/images/resource/news-i.png" alt="Solution 2" 
-                   className="rounded me-3" style={{ width: 60, height: 60, objectFit: 'cover' }} />
+              <img src="../assets/images/resource/comnt2.png"  
+                   className="rounded me-3" style={{ width: 80, height: 80, objectFit: 'cover' }} />
               <span className={`${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </span>

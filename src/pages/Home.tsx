@@ -1,7 +1,7 @@
 import React from 'react';
 import SocialMedia from '../pages/SocialMedia';
-import Events from '../pages/Events';
-import News from '../pages/News';
+import Events from './events/Events.tsx';
+import News from './news/News.tsx';
 import Counter from '../pages/Counter';
 import Mainbanner from '../pages/Mainbanner';
 

@@ -1,7 +1,7 @@
 {
   "welcome": "Welcome to our application!",
   "goodbye": "Thank you for visiting!",
-  
+  "pageTitle": "The official website of the President of Sri Lanka",
   "language": {
     "select": "Select Language",
     "english": "English",
@@ -107,7 +107,21 @@
   "news": {
     "title": "Latest News",
     "description": "Stay updated with the latest news from the President's Media Division.",
-    "readMore": "Read more"
+    "readMore": "Read more",
+    "viewAll": "View All News",
+    "allNews": "All News",
+    "allNewsDescription": "Stay updated with the latest news and announcements",
+    "notFound": "News Not Found",
+    "notFoundDescription": "The news article you are looking for does not exist.",
+    "backToNews": "Back to News",
+    "newsArticle": "News Article",
+    "views": "Views",
+    "readTime": "Read time",
+    "shareArticle": "Share this article",
+    "relatedNews": "Related News",
+    "moreNews": "More News",
+    "viewAllNews": "View All News",
+    "quickActions": "Quick Actions"
   },
   "events": {
     "title": "Upcoming Events",
@@ -115,5 +129,66 @@
     "ourEvents": "Our Events",
     "upcoming": "Upcoming",
     "events": "Events"
+  },
+  "common": {
+    "home": "Home",
+    "readMore": "Read More",
+    "previous": "Previous",
+    "next": "Next",
+    "backToHome": "Back to Home",
+    "goBack": "Go Back",
+    "backToTop": "Back to Top"
+  },
+  "search": {
+    "placeholder": "Search news, events, announcements...",
+    "newsPlaceholder": "Search news articles...",
+    "searchButton": "Search",
+    "filters": "Filters",
+    "quickFilters": "Quick Filters",
+    "advancedFilters": "Advanced Filters",
+    "dateFrom": "Date From",
+    "dateTo": "Date To",
+    "sortBy": "Sort By",
+    "sortOrder": "Sort Order",
+    "clearFilters": "Clear All",
+    "hideFilters": "Hide Filters",
+    "activeFilters": "Active Filters",
+    "category": "Category",
+    "from": "From",
+    "to": "To",
+    "resultsFound": "Showing {{count}} results",
+    "forQuery": "for \"{{query}}\"",
+    "noResults": "No results found",
+    "noResultsDescription": "Try adjusting your search terms or filters",
+    "categories": {
+      "all": "All",
+      "news": "News",
+      "events": "Events",
+      "announcements": "Announcements",
+      "press releases": "Press Releases"
+    },
+    "sortOptions": {
+      "date": "Date",
+      "title": "Title",
+      "relevance": "Relevance"
+    },
+    "sortOrderOptions": {
+      "desc": "Newest First",
+      "asc": "Oldest First"
+    }
+  },
+  "timeline": {
+    "title": "News Timeline",
+    "subtitle": "Chronological Journey of Presidential News",
+    "news": "News",
+    "totalNews": "Total News",
+    "currentYear": "Current Year",
+    "showing": "Showing",
+    "loadMore": "Load More News",
+    "showingCount": "Showing {{current}} of {{total}}",
+    "allLoaded": "All news items have been loaded",
+    "viewGrid": "View in Grid Format",
+    "noNews": "No news found",
+    "noNewsDescription": "Check back later for updates"
   }
 }

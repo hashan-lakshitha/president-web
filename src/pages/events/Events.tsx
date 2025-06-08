@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { useTheme } from '../context/ThemeContext';
-import eventsData from '../locales/pages-json/events.json';
-import Eventimage from '../assets/images/resource/news-i.png';
+import { useTheme } from '../../context/ThemeContext.tsx';
+import eventsData from '../../locales/pages-json/events.json';
+import Eventimage from '../../assets/images/resource/news-i.png';
 
 type Event = {
   id: number;

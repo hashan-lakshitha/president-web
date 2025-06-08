@@ -23,7 +23,8 @@ const Mainbanner: React.FC = () => {
               </h4>
               <a 
                 className="btn btn-danger btn-lg px-5 py-3 fw-bold text-decoration-none" 
-                href="/campaigns"
+                href="/contact"
+                role="button"
               >
                 {t('home.joinCampaign', 'Tell us.')}
               </a>
