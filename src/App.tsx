@@ -11,8 +11,8 @@ import Footer from './components/Footer';
 import './assets/styles/global.css';
 import AllNews from './pages/news/AllNews.tsx';
 import ViewNews from './pages/news/ViewNews.tsx';
-import Timeline from './pages/Timeline.tsx';
-
+import Timeline from './pages/timeLine/index.tsx';
+// import Timeline from './pages/Timeline.tsx';
 const App: React.FC = () => {
   const { t } = useTranslation();
 

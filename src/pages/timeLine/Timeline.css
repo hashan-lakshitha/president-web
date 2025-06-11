@@ -1,0 +1,88 @@
+.timeline-item {
+  position: relative;
+}
+.timeline-marker-container {
+  display: flex;
+  align-items: center;
+}
+.timeline-dot {
+  box-shadow: 0 0 20px rgba(0,123,255,0.3);
+  transition: all 0.3s ease;
+}
+.timeline-dot:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(0,123,255,0.5);
+}
+.timeline-content {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.timeline-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+}
+.category-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.decorative-line {
+  animation: shimmer 2s ease-in-out infinite alternate;
+}
+@keyframes shimmer {
+  0% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+/* Timeline line connecting markers */
+.timeline-left .timeline-marker-container::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, #007bff, #28a745);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.timeline-right .timeline-marker-container::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, #28a745, #ffc107);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .timeline-left .timeline-marker-container::after,
+  .timeline-right .timeline-marker-container::before {
+    display: none;
+  }
+  .timeline-marker-container {
+    justify-content: flex-start !important;
+    margin-bottom: 20px;
+  }
+  .timeline-left .col-md-10,
+  .timeline-right .col-md-10 {
+    width: 100%;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .timeline-left .col-md-2,
+  .timeline-right .col-md-2 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .timeline-right .card-body {
+    text-align: left !important;
+  }
+  .timeline-right .d-flex {
+    justify-content: flex-start !important;
+  }
+  .timeline-right .btn {
+    text-align: left;
+  }
+}
